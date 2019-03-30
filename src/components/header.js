@@ -1,11 +1,12 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import boardsimg from '../images/boards.jpg'
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `#333 url(${boardsimg}) no-repeat center center/cover`,
       marginBottom: `1.45rem`,
     }}
   >
